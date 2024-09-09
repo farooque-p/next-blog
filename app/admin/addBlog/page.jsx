@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 
-const page = () => {
+const Page = () => {
   const [image, setImage] = useState(false);
   const [blogContent, setBlogContent] = useState("");
   const [data, setDate] = useState({
@@ -124,4 +124,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
