@@ -93,16 +93,6 @@ const Page = () => {
             value={blogContent}
             onChange={handleBlogContent}
           />
-          {/*         <textarea
-          name="description"
-          onChange={onChangeHandler}
-          value={data.description}
-          className="w-full sm:w-[500px] mt-4 px-4 py-3 border"
-          type="text"
-          placeholder="Write contenet here"
-          rows={6}
-          required
-        /> */}
           <p className="text-xl mt-4">Blog Category:</p>
           <select
             className="w-40 mt-4 px-4 py-3 border text-gray-500"
