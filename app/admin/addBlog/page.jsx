@@ -4,8 +4,11 @@ import axios from "axios";
 import Image from "next/image";
 import React, { useState } from "react";
 import { toast } from "react-toastify";
-import ReactQuill from "react-quill";
+import dynamic from "next/dynamic";
+//import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
+
+const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
 
 const Page = () => {
   const [image, setImage] = useState(false);
